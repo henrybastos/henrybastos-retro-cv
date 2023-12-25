@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   html {
+      @apply grid place-items-center bg-stone-950 h-full w-full;
+   }
+
+   body {
+      @apply flex flex-row bg-stone-950 h-fit w-[56rem] p-4 gap-4;
+   }
+}
